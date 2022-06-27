@@ -13,7 +13,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          212112 212112 Edit <code>src/App.tsx</code> and save to reload.
+          212112 212112111111111111 Edit <code>src/App.tsx</code> and save to
+          reload.
         </p>
 
         <a
