@@ -3,5 +3,12 @@
 
 
 #--no-install 参数表示强制npx使用项目中node_modules目录中的commitlint包
+# 当出现这个错误：
+# hint: The '.husky/pre-commit' hook was ignored because it's not set as executable.
+# 设置成 executable:
+# 这个文件默认是不可执行的，执行以下操作即可
+
+# 解决方案：
+# chmod 777 .husky/* 
 
 npx --no-install commitlint --edit $1
